@@ -1,0 +1,7 @@
+*rb /usr/share/redmine/plugins/redmine_mentions
+app /usr/share/redmine/plugins/redmine_mentions
+# Gemfile /usr/share/redmine/plugins/redmine_mentions
+# db /usr/share/redmine/plugins/redmine_mentions
+lib /usr/share/redmine/plugins/redmine_mentions
+config /usr/share/redmine/plugins/redmine_mentions
+assets/* /usr/share/redmine/public/plugin_assets/redmine_mentions

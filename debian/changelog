@@ -1,0 +1,5 @@
+redmine-plugin-mentions (0.0.1+git20160217-1) unstable; urgency=low
+
+  * Initial release (closes: #).
+
+ -- Klee Dienes <klee@debian.org>  Mon, 22 Feb 2016 19:39:30 -0500

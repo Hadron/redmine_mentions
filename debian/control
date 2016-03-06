@@ -1,0 +1,19 @@
+Source: redmine-plugin-mentions
+Section: ruby
+Priority: optional
+Maintainer: Klee Dienes <klee@debian.org>
+Build-Depends: debhelper (>= 9), quilt
+Standards-Version: 3.9.6
+Homepage: https://github.com/arkhitech/redmine_mentions
+
+Package: redmine-plugin-mentions
+Architecture: all
+Depends: ${misc:Depends}, redmine (>= 3)
+Description: Allow users to mention team members in their notes/comments.
+ In editing an issue, a user can mention a colleague's username that
+ is part of the project from the drop-down list.  The mentioned user
+ receives an email with the body of the comment and information who
+ mentioned him on particular issue.
+ .
+ By default the '@' sign is used as the trigger for the mentioning,
+ but the trigger can be changed among available triggers.
